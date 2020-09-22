@@ -6,8 +6,11 @@ function Header() {
   return (
     <div className="Header">
       <Link className="header-links" id="header-title" to="/">Blog App</Link>
-      <Link className="header-links" id="header-posts" to="/posts">Posts</Link>
-      <Link className="header-links" id="header-add-post" to="/add-post">Add Post</Link>
+      <div className="links">
+      <Link className="header-links" id="header-posts" to="/posts">Posts |</Link>
+      <Link className="header-links" id="header-add-post" to="/add-post"> Add Post</Link>
+      </div>
+      
     </div>
   )
 }
