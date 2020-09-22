@@ -1,5 +1,5 @@
-import React, {useEffect, useState} from 'react';
-import './PostCards.css'
+import React, { useEffect, useState } from 'react';
+// import './PostCards.css'
 import PostCard from '../PostCard/PostCard'
 import { getPosts } from '../../services/posts'
 
@@ -13,7 +13,7 @@ function PostCards(props) {
     fetchPosts()
   }, [])
   
-const cards = filtered.map((posts, idx) => (
+const cards = allPosts.map((posts, idx) => (
        <PostCard id={posts._id} title={posts.title} imgURL={posts.imgURL} key={idx} />
      ))
   return (
