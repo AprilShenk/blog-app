@@ -1,0 +1,35 @@
+.Header {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0 auto;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #CFCFCF;
+  box-shadow: 1px 1px 4px #cfcfcf;
+  background: 	#0f344f;
+  padding-left: 30px;
+  justify-content: space-around;
+  padding-top: 20px;
+  font: Comfortaa;
+  /* font-family: 'Comfortaa', cursive; */
+  
+}
+
+.clickup-chrome-ext_installed {
+  font-family: 'Comfortaa', cursive; 
+}
+
+.header-links {
+  text-decoration: none;
+  color: white;
+  font-family: 'Comfortaa', cursive !important;
+}
+
+#header-title{
+  font-size: 25px;
+  color: 	#ecc28d;
+  font-weight: bolder;
+}

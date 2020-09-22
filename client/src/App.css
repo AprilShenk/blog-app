@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Epilogue:wght@200;300;400;500;700;900&display=swap')
+
+
+/* .App {
+  font-family: 'Comfortaa', cursive;
+} */
+
+body, html {
+  font-family: 'Comfortaa', cursive; 
+}
+
+/* .clickup-chrome-ext_installed {
+  font-family: 'Comfortaa', cursive; 
+} */
+
+/* Link {
+  font-family: 'Comfortaa', cursive; 
+} */
+
+
+.layout-children{
+  display: flex;
+  padding-top: 100px;
+}
