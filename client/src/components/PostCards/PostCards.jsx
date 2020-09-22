@@ -1,14 +1,7 @@
-<<<<<<< HEAD
 import React, { useEffect, useState } from "react";
 import "./PostCards.css";
 import PostCard from "../PostCard/PostCard";
 import { getPosts } from "../../services/posts";
-=======
-import React, {useEffect, useState} from 'react';
-import './PostCards.css'
-import PostCard from '../PostCard/PostCard'
-import { getPosts } from '../../services/posts'
->>>>>>> 7be80b24d509f6e9a9c90b75f4055f122beb9693
 
 function PostCards(props) {
   const [allPosts, setAllPosts] = useState([]);
