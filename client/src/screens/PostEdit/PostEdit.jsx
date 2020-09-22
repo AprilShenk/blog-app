@@ -5,8 +5,8 @@ import "./PostEdit.css";
 import { useParams, Redirect } from "react-router-dom";
 import { getPost, updatePost } from "../../services/posts";
 
-const PostEdit = (props) => useState({
-  const [post, setPost] = {
+const PostEdit = (props) => {
+  const [post, setPost] = useState({
     title: "",
     imgURL: "",
     content: "",
