@@ -1,11 +1,8 @@
 .footer{
-  margin-top: 1rem;
-  padding: .5rem;
-  /* position: fixed; */
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
   display: flex;
   justify-content: space-between;
-
+  background-color: #0f344f;
+  color: 	#78a2ae;
 }

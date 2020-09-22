@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './PostCard.css';
 
 function PostCard(props) {
   
@@ -9,7 +10,7 @@ function PostCard(props) {
         <img className="post-card-image"
             src={props.imgURL}
             alt="Not available" />
-        <p className="post-card-title">${props.title}</p>
+        <p className="post-card-title">{props.title}</p>
         <p>...Read more</p>
       </Link>
     </div>

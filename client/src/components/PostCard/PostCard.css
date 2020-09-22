@@ -1,0 +1,24 @@
+.post-card{
+  /* display: flex; */
+  width: 280px;
+  margin: 15px;
+  text-decoration: none;
+  /* justify-content: center; */
+  text-align: center;
+  box-shadow: 5px 5px 15px #b45c03;
+  border-radius: 15px;
+  padding-top: 15px;
+}
+
+.card{
+  text-decoration: none;
+  color: #548889;
+  font-weight: 500;
+}
+
+
+
+img{
+  height: 70px;
+  align-content: center;
+}

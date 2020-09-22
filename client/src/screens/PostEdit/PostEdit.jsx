@@ -6,11 +6,11 @@ import { useParams, Redirect } from "react-router-dom";
 import { getPost, updatePost } from "../../services/posts";
 
 const PostEdit = (props) => {
-  const [post, setPost] = {
+  const [post, setPost] = useState({
     title: "",
     imgURL: "",
     content: "",
-  };
+  });
 
   const [isUpdated, setUpdated] = useState(false);
   let { id } = useParams();
@@ -48,7 +48,7 @@ const PostEdit = (props) => {
           <img
             className="edit-post-image"
             src={post.imgURL}
-            alt={`no information availiable`}
+            alt={post.title}
           />
           <form onSubmit={handleSubmit}>
             <input
@@ -81,7 +81,7 @@ const PostEdit = (props) => {
             required
             onChange={handleChange}
           />
-          <button type="submit" className="save-button" />
+          <button type="submit" className="save-button" >Submit</button>
         </form>
       </div>
     </Layout>
