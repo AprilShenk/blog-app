@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => (
   <div className="footer">
     <p className="footer-quote">"Blogs are whatever we make them."</p>
-    <p className="footer-madeby">Made with love by Andres M, April S, Matt M & Pilar B</p>
+    <p className="footer-madeby">Made with love by Andres M, April S, Matt M & Pilar B. ❤️</p>
   </div>
 );
 
