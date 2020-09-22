@@ -81,7 +81,7 @@ const PostEdit = (props) => {
             required
             onChange={handleChange}
           />
-          <button type="submit" className="save-button" />
+          <button type="submit" className="save-button" >Submit</button>
         </form>
       </div>
     </Layout>
