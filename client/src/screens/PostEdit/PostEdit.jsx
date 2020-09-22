@@ -43,7 +43,7 @@ const PostEdit = (props) => {
 
   return (
     <Layout>
-      <div className="post=edit">
+      <div className="post-edit">
         <div className="image-container">
           <img
             className="edit-post-image"
