@@ -48,7 +48,7 @@ const PostEdit = (props) => {
           <img
             className="edit-post-image"
             src={post.imgURL}
-            alt={`no information available`}
+            alt={post.title}
           />
           <form onSubmit={handleSubmit}>
             <input
@@ -81,7 +81,7 @@ const PostEdit = (props) => {
             required
             onChange={handleChange}
           />
-          <button type="submit" className="save-button" />
+          <button type="submit" className="save-button" >Submit</button>
         </form>
       </div>
     </Layout>
