@@ -70,7 +70,7 @@ const PostCreate = () => {
           required
           onChange={handleChange}
         />
-        <button type="submit" className="submit-button">Sumbit</button>
+        <button type="submit" className="submit-button">Submit</button>
       </form>
     </Layout>
   );
