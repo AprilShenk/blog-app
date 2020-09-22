@@ -1,0 +1,1 @@
+import Layout from '../../components/shared/Layout/Layout'

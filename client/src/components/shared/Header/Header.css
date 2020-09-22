@@ -1,0 +1,12 @@
+.Header {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0 auto;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #CFCFCF;
+  box-shadow: 1px 1px 4px #cfcfcf;
+}
