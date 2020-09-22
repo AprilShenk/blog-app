@@ -1,0 +1,27 @@
+import React, {useEffect, useState} from 'react';
+import './PostCards.css'
+import PostCard from '../PostCard/PostCard'
+import { getPosts } from '../../services/posts'
+
+import React from 'react';
+
+function PostCards(props) {
+  const [allPosts, setAllPosts] = useState([])
+  useEffect(() => {
+    const fetchPosts = async () => {
+      const posts = await getPosts()
+      setAllPosts(posts)
+    }
+    fetchPosts()
+  }, [])
+  
+const cards = filtered.map((posts, idx) => (
+       <PostCard id={posts._id} title={posts.title} imgURL={posts.imgURL} key={idx} />
+     ))
+  return (
+    <div className="post-cards">
+      {cards}
+    </div>
+  );
+}
+export default PostCards;
