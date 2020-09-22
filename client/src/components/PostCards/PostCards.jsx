@@ -3,8 +3,6 @@ import './PostCards.css'
 import PostCard from '../PostCard/PostCard'
 import { getPosts } from '../../services/posts'
 
-import React from 'react';
-
 function PostCards(props) {
   const [allPosts, setAllPosts] = useState([])
   useEffect(() => {
