@@ -5,12 +5,12 @@ import "./PostEdit.css";
 import { useParams, Redirect } from "react-router-dom";
 import { getPost, updatePost } from "../../services/posts";
 
-const PostEdit = (props) => {
+const PostEdit = (props) => useState({
   const [post, setPost] = {
     title: "",
     imgURL: "",
     content: "",
-  };
+  });
 
   const [isUpdated, setUpdated] = useState(false);
   let { id } = useParams();
