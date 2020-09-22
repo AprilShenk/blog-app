@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import './PostCards.css'
 import PostCard from '../PostCard/PostCard'
 import { getPosts } from '../../services/posts'
 
