@@ -48,7 +48,7 @@ const PostEdit = (props) => {
           <img
             className="edit-post-image"
             src={post.imgURL}
-            alt={`no information availiable`}
+            alt={`no information available`}
           />
           <form onSubmit={handleSubmit}>
             <input
