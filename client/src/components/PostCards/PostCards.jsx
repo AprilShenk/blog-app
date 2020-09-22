@@ -3,7 +3,7 @@ import PostCard from '../PostCard/PostCard'
 import { getPosts } from '../../services/posts'
 
 function PostCards(props) {
-  const [allPosts, setAllPosts] = useState([])
+  const [allPosts, setAllPosts] = useState([]);
   useEffect(() => {
     const fetchPosts = async () => {
       const posts = await getPosts()
