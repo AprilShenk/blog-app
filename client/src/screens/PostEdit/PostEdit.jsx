@@ -20,6 +20,7 @@ const PostEdit = (props) => {
       const post = await getPost(id);
       setPost(post);
     };
+    fetchPost()
   }, [id]);
 
   const handleChange = (e) => {
