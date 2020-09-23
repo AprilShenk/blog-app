@@ -4,10 +4,17 @@
   align-items: center;
   margin:20px;
   padding:15px;
+  text-decoration: none;
+  box-shadow: 3px 5px 8px #b45c03;
+  border-radius: 15px;
+  padding-top: 15px;
+  margin-bottom: 30px;
 }
 
 .post-title{
   font-weight: bold;
+  text-decoration: none;
+
 }
 
 .post-img {
