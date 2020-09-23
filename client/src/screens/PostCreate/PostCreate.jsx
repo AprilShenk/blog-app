@@ -24,6 +24,7 @@ const PostCreate = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const created = await createPost(post);
+    setCreated({ created })
   };
 
   if (isCreated) {
