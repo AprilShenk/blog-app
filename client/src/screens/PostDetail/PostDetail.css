@@ -1,0 +1,22 @@
+.edit-button, .delete-button {
+  font-size: 22px;
+  font-family: "";
+  height: 40px;
+  width: 150px;
+  margin: 20px 20px 20px 0;
+  background-color: #0f344f;
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 10px 2px #cecece;
+  cursor: pointer;
+}
+
+.edit-link {
+  text-decoration: none;
+  color: white;
+}
+
+.image-detail {
+  width: 60%;
+  height: auto;
+}

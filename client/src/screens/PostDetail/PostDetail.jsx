@@ -1,5 +1,6 @@
 import Layout from '../../components/shared/Layout/Layout'
 import React, { useEffect, useState } from 'react';
+import '../PostDetail/PostDetail.css'
 import { useParams, Link } from 'react-router-dom';
 import { getPost, deletePost } from '../../services/posts';
 
@@ -25,9 +26,9 @@ const PostDetail = () => {
   return (
     <Layout>
       <div className="post-detail">
-        <img src={post.imgURL} alt={"no-information-available"} />
+        <img className="image-detail" src={post.imgURL} alt={"no-information-available"} />
         <h3>{post.title}</h3>
-        <h6>{post.author}</h6>
+        <h5>{post.author}</h5>
         <p>{post.content}</p>
         <button className="edit-button"><Link className="edit-link" to={`/posts/${post._id}/edit`}>Edit</Link></button>
         <button className="delete-button" onClick={() => deletePost(post._id)}>Delete</button>

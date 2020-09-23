@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;900&display=swap');
 
 
-*{
-  border: 1px solid gold;
-}
 
 body, html {
   font-family: 'Exo', sans-serif; 
