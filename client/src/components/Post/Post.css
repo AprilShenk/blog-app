@@ -14,7 +14,6 @@
 .post-title{
   font-weight: bold;
   text-decoration: none;
-
 }
 
 .post-img {
@@ -25,10 +24,12 @@
 .post-author{
   font-size: 20px;
   padding: 10px;
+  text-decoration: none;
 }
 
 .post-content{
   font-size: 14px;
   padding: 10px;
+  text-decoration: none;
 }
 
