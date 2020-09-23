@@ -5,4 +5,8 @@
   justify-content: space-between;
   background-color: #0f344f;
   color: 	#78a2ae;
+  position: fixed;
+  bottom: 0; 
+  left: 0; 
+  right: 0;
 }
