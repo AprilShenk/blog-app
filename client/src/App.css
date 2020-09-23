@@ -1,24 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Epilogue:wght@200;300;400;500;700;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;900&display=swap');
 
 
-/* .App {
-  font-family: 'Comfortaa', cursive;
+/* *{
+  border: 1px solid gold;
 } */
 
 body, html {
-  font-family: 'Comfortaa', cursive; 
+  font-family: 'Exo', sans-serif; 
+  background-color: #f9ecdc;
+  width: 100%;
 }
 
-/* .clickup-chrome-ext_installed {
-  font-family: 'Comfortaa', cursive; 
-} */
-
-/* Link {
-  font-family: 'Comfortaa', cursive; 
-} */
 
 
 .layout-children{
-  display: flex;
-  padding-top: 100px;
+  padding-top: 120px;
+  /* height: 100vh; */
+  padding-bottom: 100px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
+
+
+.post-cards {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+  /* height: 100vh; */
+  
+}
+
