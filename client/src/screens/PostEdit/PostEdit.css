@@ -14,6 +14,7 @@
 
 .edit-post-image {
   width: 500px;
+  height: auto;
   padding: 0 40px;
   padding-bottom: 5px;
 }
