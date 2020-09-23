@@ -2,6 +2,7 @@ import Layout from "../../components/shared/Layout/Layout";
 import React, { useState } from "react";
 import { createPost } from "../../services/posts";
 import { Redirect } from "react-router-dom";
+import "./PostCreate.css";
 
 const PostCreate = () => {
   const [post, setPost] = useState({
@@ -33,6 +34,8 @@ const PostCreate = () => {
 
   return (
     <Layout>
+      <div className="create-container">
+        <h3>Create your new post here.</h3>
       <form className='create-from' onSubmit={handleSubmit}>
         <input
           type="text"
@@ -72,7 +75,8 @@ const PostCreate = () => {
           onChange={handleChange}
         />
         <button type="submit" className="submit-button">Submit</button>
-      </form>
+        </form>
+      </div>
     </Layout>
   );
 };
